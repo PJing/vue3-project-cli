@@ -2,12 +2,12 @@
  * @Author: 彭璟
  * @Date: 2020-11-16 10:50:16
  * @LastEditors: 彭璟
- * @LastEditTime: 2020-12-02 16:31:23
+ * @LastEditTime: 2020-12-02 16:38:39
  * @Description: file content
 -->
-# vue3project
+# vue3.0-project
 
-## 初始化项目
+### 初始化项目
 ```
 npm install
 ```
