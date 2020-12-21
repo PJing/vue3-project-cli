@@ -2,10 +2,10 @@
  * @Author: 彭璟
  * @Date: 2020-11-16 10:50:16
  * @LastEditors: 彭璟
- * @LastEditTime: 2020-12-02 16:38:39
+ * @LastEditTime: 2020-12-02 16:42:14
  * @Description: file content
 -->
-# vue3.0-project
+# vue3-pc-project
 
 ### 初始化项目
 ```

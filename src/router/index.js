@@ -2,22 +2,16 @@
  * @Author: 彭璟
  * @Date: 2020-11-16 11:28:26
  * @LastEditors: 彭璟
- * @LastEditTime: 2020-11-24 16:45:36
+ * @LastEditTime: 2020-12-03 10:11:40
  * @Description: file content
  */
 import { createRouter, createWebHashHistory } from 'vue-router'
 import store from '@/store'
 
-import list from './module/demo'
 import global from './module/global'
-import parentAndChild from './module/parentAndChild'
-import other from './module/other'
 
 const routes = [
   ...global,
-  ...list,
-  ...parentAndChild,
-  ...other,
   // 添加404页面：方法1
   // {
   //   path: '/:catchAll(.*)',

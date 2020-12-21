@@ -1,8 +1,9 @@
+    
 /*
  * @Author: 彭璟
  * @Date: 2020-11-16 10:50:01
  * @LastEditors: 彭璟
- * @LastEditTime: 2020-11-26 18:22:47
+ * @LastEditTime: 2020-12-03 14:21:26
  * @Description: file content
  */
 import { createApp } from 'vue'
@@ -10,19 +11,17 @@ import App from './App.vue'
 
 import router from '@/router'
 
-import Vant from 'vant'
-import 'vant/lib/index.css'
-
 import http from '@/utils/http'
 
 import store from '@/store'
-import 'amfe-flexible'
+
+import ElementPlus from 'element-plus';
+import 'element-plus/lib/theme-chalk/index.css';
 
 const app = createApp(App)
 
-
 app.use(router)
-app.use(Vant)
+app.use(ElementPlus)
 app.use(store)
 app.config.globalProperties.$http = http
 
